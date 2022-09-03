@@ -7,7 +7,7 @@ class MyPost1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return PostTemplate(
       username: 'Mano',
-      videoCaption: 'My tiktok clone in flutter',
+      videoCaption: 'My tiktok clone in flutter 01',
       videoHastags: '#flutter #app #trending',
       numberOfLikes: '1.6M',
       numberOfComments: '24k',
