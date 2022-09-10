@@ -13,9 +13,9 @@ class MyButton extends StatelessWidget {
       child: Column(
 
         children: [
-          Icon(icon, size: 40, color: Colors.white,),
+          Image.asset(icon, height: icon == 'assets/icons/plussaccount.png'?60: 35, ),
           // SizedBox(height: 0,),
-          Text(number)
+          Text(number, style: TextStyle(color: Colors.white),)
         ],
 
       ),

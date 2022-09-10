@@ -20,11 +20,14 @@ class UserProfilePage extends StatelessWidget {
               centerTitle: true,
               title: Text('Manohar',style: TextStyle(color: Colors.black),),
               elevation: 0,
-              leading: Icon(Icons.person_add, color: Colors.black),
+              leading: Padding(
+                padding: const EdgeInsets.all(15.0),
+                child: Image.asset('assets/icons/addppl.png',),
+              ),
               actions: [
                 Padding(
-                  padding: const EdgeInsets.only(right: 10),
-                  child: Icon(Icons.menu, color: Colors.black),
+                  padding: const EdgeInsets.all(19),
+                  child: Image.asset('assets/icons/triple.png')
                 )
               ],
             ),
@@ -126,35 +129,19 @@ class UserProfilePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 30, vertical: 15),
+                  padding: EdgeInsets.symmetric(horizontal: 40, vertical: 15),
                   child: Text(
                     'Edit profile', 
-                    style: TextStyle(color: Colors.black,fontSize: 21),
+                    style: TextStyle(color: Colors.black,fontSize: 17),
+                  
                   ),
                   decoration: BoxDecoration(
                     border: Border.all(color: Colors.grey),
-                    borderRadius: BorderRadius.circular(5)
+                    borderRadius: BorderRadius.circular(5),
+                    //color: Color.fromARGB(255, 223, 104, 96)
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 4.0),
-                  child: Container(
-                    padding: EdgeInsets.all(15),
-                    child: Icon(Icons.camera_alt, color: Colors.black,),
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.grey),
-                      borderRadius: BorderRadius.circular(5)
-                    ),
-                  ),
-                ),
-                Container(
-                  padding: EdgeInsets.all(15),
-                  child: Icon(Icons.bookmark, color: Colors.black,),
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.grey),
-                    borderRadius: BorderRadius.circular(5)
-                  ),
-                ),
+                
               ],
             ),
             SizedBox(height:10),
@@ -163,13 +150,13 @@ class UserProfilePage extends StatelessWidget {
             TabBar(
               tabs: [
                 Tab(
-                  icon: Icon(Icons.grid_3x3, color: Colors.black,),
+                  child: Image.asset('assets/icons/first.png', height: 25,color: Colors.black,),
                 ),
                 Tab(
-                  icon: Icon(Icons.favorite, color: Colors.black,),
+                  icon: Image.asset('assets/icons/second.png', height: 25,color: Colors.black),
                 ),
                 Tab(
-                  icon: Icon(Icons.lock_outline_rounded, color: Colors.black,),
+                  icon: Image.asset('assets/icons/third.png', height: 25,color: Colors.black),
                 )
               ],
             ),

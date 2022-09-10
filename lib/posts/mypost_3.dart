@@ -12,6 +12,7 @@ class MyPost3 extends StatelessWidget {
       numberOfLikes: '4.2M',
       numberOfComments: '56k',
       numberOfShares: '12k',
+      numberOfSaves: '932',
       userPost: Container(color: Colors.cyan,),
     );
   }

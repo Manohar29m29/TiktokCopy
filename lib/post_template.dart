@@ -8,6 +8,7 @@ class PostTemplate extends StatelessWidget {
   final String numberOfLikes;
   final String numberOfComments;
   final String numberOfShares;
+  final String numberOfSaves;
   final userPost;  // the post i.e the VIDEO / reel
 
 
@@ -18,7 +19,8 @@ class PostTemplate extends StatelessWidget {
     required this.numberOfLikes,
     required this.numberOfComments, 
     required this.numberOfShares, 
-    required this.userPost
+    required this.userPost,
+    required this.numberOfSaves
   }); 
   @override
   Widget build(BuildContext context) {
@@ -75,23 +77,27 @@ class PostTemplate extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   MyButton(
-                    icon: Icons.account_circle_sharp,
+                    icon: 'assets/icons/plussaccount.png',
                     number: '' ,
                   ),
                   MyButton(
-                    icon: Icons.favorite,
+                    icon: 'assets/icons/like.png',
                     number: numberOfLikes,
                   ),
                   MyButton(
-                    icon: Icons.chat_bubble,
+                    icon: 'assets/icons/comments.png',
                     number: numberOfComments,
                   ),
                   MyButton(
-                    icon: Icons.send,
+                    icon: 'assets/icons/share.png',
                     number: numberOfShares,
                   ),
                   MyButton(
-                    icon: Icons.circle_outlined,
+                    icon: 'assets/icons/save.png',
+                    number: numberOfSaves,
+                  ),
+                  MyButton(
+                    icon: 'assets/icons/musiccircle.png',
                     number: '',
                   )
                 ],
