@@ -13,7 +13,7 @@ class MyButton extends StatelessWidget {
       child: Column(
 
         children: [
-          Icon(icon, size: 40,),
+          Icon(icon, size: 40, color: Colors.white,),
           // SizedBox(height: 0,),
           Text(number)
         ],

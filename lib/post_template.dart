@@ -41,6 +41,7 @@ class PostTemplate extends StatelessWidget {
                   Text(
                     '@' + username,
                     style: TextStyle(
+                      color: Colors.white,
                       fontSize: 25,
                       fontWeight: FontWeight.bold
                     ),
@@ -75,7 +76,7 @@ class PostTemplate extends StatelessWidget {
                 children: [
                   MyButton(
                     icon: Icons.account_circle_sharp,
-                    number: '',
+                    number: '' ,
                   ),
                   MyButton(
                     icon: Icons.favorite,

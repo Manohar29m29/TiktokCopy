@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-      theme: ThemeData(fontFamily: 'Proxima Nova' ),
+      theme: ThemeData(fontFamily: 'Proxima Nova', brightness: Brightness.dark ),
     );
   }
 }
