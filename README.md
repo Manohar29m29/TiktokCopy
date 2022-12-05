@@ -1,16 +1,7 @@
-# tiktok
+# Tik Tok Clone
+• Built UI components in FLUTTER mocking TikTok app.
+• Designed and implemented organized file and code management
 
-A new Flutter project.
+# preview
+![ezgif-1-5035d9f3ba tiktok](https://user-images.githubusercontent.com/77569820/205558720-f4b2bd3d-039d-4917-a52b-c88a515dbb4e.gif)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
